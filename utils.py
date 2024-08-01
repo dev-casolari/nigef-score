@@ -16,15 +16,15 @@ def calculate_score(sesso, eta, bmi, attivita, ore_sport, obiettivo):
   if bmi == '<18':
     pass
   elif bmi == '18-25':
-    punteggio = punteggio - 2
+    punteggio = punteggio + 2
   elif bmi == '25-30':
-    punteggio = punteggio - 4
+    punteggio = punteggio + 4
   elif bmi == '30-35':
-    punteggio = punteggio - 6
+    punteggio = punteggio + 6
   elif bmi == '35-40':
-    punteggio = punteggio - 8
+    punteggio = punteggio + 8
   elif bmi == '40+':
-    punteggio = punteggio - 10
+    punteggio = punteggio + 10
   
   if attivita == 'leggera':
     pass
