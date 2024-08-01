@@ -2,7 +2,7 @@ import streamlit as st
 
 from utils import calculate_score
 
-col1, col2, col3, col4, col5, col6 = st.columns(6)
+col1, col2, col3, col4, col5, col6 = st.columns([0.15, 0.14, 0.14, 0.17, 0.15, 0.3])
 
 
 sex = col1.radio("SESSO", ["uomo", "donna"])
